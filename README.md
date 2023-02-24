@@ -50,7 +50,7 @@ student
 <font color="#EC0101"><b>root@kali</b></font>:<font color="#277FFF"><b>~</b></font># 
 </pre>
 
-#TASK 2.1
+# TASK 2.1
 <pre><font color="#5EBDAB">──(</font><font color="#277FFF"><b>student㉿kali</b></font><font color="#5EBDAB">)-[</font><b>~</b><font color="#5EBDAB">]</font>
 <font color="#5EBDAB">└─</font><font color="#277FFF"><b>$</b></font> ip link show
 1: <font color="#49AEE6">lo: </font>&lt;LOOPBACK,UP,LOWER_UP&gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
@@ -70,7 +70,7 @@ PING google.com (64.233.163.100) 56(84) bytes of data.
 rtt min/avg/max/mdev = 141.392/163.426/196.357/23.725 ms
 </pre>
 
-#TASK 2.2
+# TASK 2.2
 <pre><font color="#5EBDAB">┌──(</font><font color="#277FFF"><b>student㉿kali</b></font><font color="#5EBDAB">)-[</font><b>~</b><font color="#5EBDAB">]</font>
 <font color="#5EBDAB">└─</font><font color="#277FFF"><b>$</b></font> ping youtube.com -c3
 PING youtube.com (216.58.209.206) 56(84) bytes of data.
@@ -83,7 +83,7 @@ PING youtube.com (216.58.209.206) 56(84) bytes of data.
 rtt min/avg/max/mdev = 146.307/156.605/176.077/13.776 ms
 </pre>
 
-#TASK2.3
+# TASK2.3
 <pre><font color="#5EBDAB">──(</font><font color="#277FFF"><b>student㉿kali</b></font><font color="#5EBDAB">)-[</font><b>~</b><font color="#5EBDAB">]</font>
 <font color="#5EBDAB">└─</font><font color="#277FFF"><b>$</b></font> ifconfig
 eth0: flags=4163&lt;UP,BROADCAST,RUNNING,MULTICAST&gt;  mtu 1500
@@ -114,7 +114,7 @@ lo: flags=73&lt;UP,LOOPBACK,RUNNING&gt;  mtu 65536
 *   Trying 224.0.0.1:443...
 </pre>
 
-#TASK 3
+# TASK 3
 root@kali:~# cd Downloads
 root@kali:~/Downloads# wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.tar.xz
 --2023-02-24 07:59:51--  https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.tar.xz
